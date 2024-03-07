@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Report card</title>
+    <link rel="stylesheet" href="rpt.css">
+    <script src="rpt.js"> </script>
+</head>
+<body onload="show_report()">
+    <div class="rpt_card" id="r_card">
+        <h1 style="color:rgb(151, 149, 162)">Student Report Card</h1>
+        <br>
+        <h2 id="name" style="color: rgb(197, 204, 209);"> Name : </h2>        
+        <h2 id="r_rno" style="color: rgb(197, 204, 209);"> Roll No : </h2>        
+        <table border="5px" align="center" id="tbl" >
+            <tr id="tbl1">
+                <td><h2>Subjects</h2></td>
+                <td><h2>Science</h2></td>
+                <td><h2>Maths</h2></td>
+                <td><h2>English</h2></td>
+                <td><h2>Hindi</h2></td>
+                <td><h2> Total </h2></td>
+                <td><h2>Max.Marks</h2></td>
+            </tr>
+            <tr>
+                <td><h2>Marks</h2></td>
+                <td ><h2 id="sci"> </h2> </td>
+                <td ><h2 id="maths"> </h2> </td>
+                <td ><h2 id="eng"> </h2> </td>
+                <td ><h2 id="hindi"> </h2> </td>
+                <td ><h2 id="total"> </h2> </td>
+                <td ><h2 id="">400</h2> </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <h2 id="grade" style="color: rgb(197, 204, 209);">Grade :</h2>
+        <h2 id="result" style="color: rgb(197, 204, 209);">Result :</h2>
+    </div>
+</body>

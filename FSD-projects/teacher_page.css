@@ -1,0 +1,81 @@
+body{
+    background-image: url(tech.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-size: 1600px 800px;
+}
+.main
+{
+    background: rgba(59, 107, 131, 0.236); 
+    width:45%;
+    margin-left: 400px; 
+    align-items: center;
+    margin-top:0px;
+    margin-bottom:100px; 
+    left:40%;
+    padding: 15px;
+    height: 85%;
+    border-radius: 10px;
+    /* box-shadow: 25px 25px 15px rgb(78, 78, 94); */
+    border: black solid 3px;
+    backdrop-filter: blur(10px);
+    
+}
+/* #teach:hover{
+background-color: white; 
+} */
+#nm,#rno,#sci,#maths,#hd,#eng{
+    background-color: #c1c1c1;
+    box-shadow: 20px 20px 60px
+    #00000041, inset -20px -20px 60px #ffffff41;
+}
+.txt
+{
+    width: 250px;
+    /* text-align: center; */
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn
+{
+    border-radius: 10px;
+    margin-left: 20px;
+    height: 30px;
+    background-color:rgb(228, 101, 101);
+    border: black 2px solid;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.search_btn
+{
+    border-radius: 10px;
+    margin-left: 13px;
+    height: 30px;
+    background-color:rgb(236, 166, 166);
+    border: black 2px solid;
+    font-weight: bold;
+}
+.lbl{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 25px;
+}
+.heading{
+    text-align: center;
+}
+.btn:hover{
+     background-color: black;
+     color: white;
+    box-shadow: 5px 5px #888888;
+}
+#dis{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 25px;
+}

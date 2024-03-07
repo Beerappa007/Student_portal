@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="result_show.css">
+    <script src="https://rawgit.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="result_show.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="top">
+            <h1>Result Section</h1>
+            <label class="label">Enter your Roll No: &nbsp;</label>
+            <input type="text" id="rno" placeholder="">
+            <h3 id="msg"></h3>
+            <br><br>
+            <button class="btn" onclick="check_result()">Show Result</button>
+            <button class="btn" id="btn" onclick="downloadPDF()" style="visibility: hidden;">Download</button>
+            <br><br>
+        </div>
+        <div class="rpt_card" id="r_card" style="visibility: hidden;">
+            <h1>Student Report Card</h1>
+            <div class="student-info">
+                <h2 id="name">Name: </h2>
+                <h2 id="r_rno">Roll No: </h2>
+            </div>
+            <table border="5px" align="center" id="tbl">
+                <tr id="tbl1">
+                    <th>Subjects</th>
+                    <th>Science</th>
+                    <th>Maths</th>
+                    <th>English</th>
+                    <th>Hindi</th>
+                    <th>Total</th>
+                    <th>Max.Marks</th>
+                </tr>
+                <tr style="font-weight: bold; font-size: 20px;">
+                    <td>Marks</td>
+                    <td id="sci"></td>
+                    <td id="maths"></td>
+                    <td id="eng"></td>
+                    <td id="hindi"></td>
+                    <td id="total"></td>
+                    <td>400</td>
+                </tr>
+            </table>
+            <br><br>
+            <div class="grade-result">
+                <h2 id="grade">Grade: </h2>
+                <h2 id="result">Result: </h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

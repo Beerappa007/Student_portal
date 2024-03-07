@@ -1,0 +1,29 @@
+
+.rpt_card
+{   
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 2px solid rgb(196, 202, 209);
+    background: rgba(6, 5, 6, 0.112);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+
+}
+#tbl{
+      border-color: black;
+    background: rgba(79, 79, 120, 0.193);
+    
+}
+td{
+    padding: 20px;
+    width: 80px;
+    height: 2px;
+}
+body{
+    background-image: url(tech.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-size: 1600px 800px;
+}

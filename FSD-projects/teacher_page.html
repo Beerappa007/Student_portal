@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title> www.FSD08 Batch.com</title>
+  <script src="teacher_page.js"> </script>
+  <link rel="stylesheet" href="teacher_page.css"/> 
+</head>
+<body >
+    <h2 style="text-align: center; color: rgb(228, 220, 220);" id="teach">Teacher section</h2>
+   <div class="main">
+       <h1 class="heading" style="color:rgb(220, 211, 211)"> Admin School with report card  </h1>
+       <label class="lbl" >Enter the Roll No :</label>
+       <input  class="txt" type="text" placeholder="" id="rno" style="margin-left: 50px;" required/> 
+       <button  class="search_btn" onclick="search()"> SEARCH STUDENT </button>
+       <br>
+       <p id="msg"></p>
+       <label class="lbl" >Enter Student Name  :</label>
+       <input class="txt" type="text" placeholder="" id="nm" style="margin-left: 25px;"/>
+       <br>
+       <label class="lbl" >Enter Science marks :</label>
+       <input class="txt" type="number" placeholder="" id="sci"/>
+       <br>
+       <label class="lbl" >Enter Maths marks :</label>
+       <input  class="txt" type="number" placeholder="" id="maths"style="margin-left: 35px;"/>
+       <br>
+       <label class="lbl" >Enter English marks :</label>
+       <input  class="txt" type="number" placeholder="" id="eng" style="margin-left: 22px;"/>
+       <br>
+       <label class="lbl" >Enter Hindi marks :</label>
+       <input  class="txt" type="number" placeholder="" id="hd" style="margin-left: 40px;"/>
+       <h3 id="dis"></h3>
+       <br>
+   <br>
+   <br>
+      <button  class="btn" onclick="addStudent()"> ADD STUDENT</button>
+       <button class="btn" onclick="remove_stud()"> REMOVE STUDENT </button>
+       <button class="btn" onclick="update()"> UPDATE STUDENT</button>
+       <button  class="btn" onclick="generate_report()"> REPORT CARD </button>
+
+   </div>
+</body>
+
+</html>
+
+
+
+
